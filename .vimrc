@@ -7,6 +7,7 @@ syntax on "Enable syntaxical coloration
 
 set number "Show lines number
 set showmode "Show current mode
+set wrap "Wrap lines when exceeding window width
 
 set expandtab     " Replace <Tab> by $shiftwidth spaces.
 set shiftround    " Round spaces to the nearest $shiftwidth multiple.
@@ -32,3 +33,12 @@ set statusline+=\ T:%y          " File's language type
 set statusline+=\ L:%l/%L       " Current line vs lines number
 set statusline+=\ C:%v          " Current column
 set statusline+=\ P:%p          " Current percentage
+
+" Insert mode mapping
+
+" Ctrl-d : delete a line in insert mode
+inoremap <c-d> <esc>ddi 
+
+" Abbreviations handling typos
+iabbrev waht what
+iabbrev tehn then

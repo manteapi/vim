@@ -7,3 +7,6 @@
 [submodule ".vim/pack/plugins/start/tagbar"]
 	path = .vim/pack/plugins/start/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule ".vim/pack/plugins/start/gutentags"]
+	path = .vim/pack/plugins/start/gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags.git

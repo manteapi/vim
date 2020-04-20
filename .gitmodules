@@ -13,3 +13,6 @@
 [submodule ".vim/pack/plugins/opt/qmlSyntax"]
 	path = .vim/pack/plugins/opt/qmlSyntax
 	url = https://github.com/peterhoeg/vim-qml.git
+[submodule ".vim/pack/plugins/start/commentary"]
+	path = .vim/pack/plugins/start/commentary
+	url = https://github.com/tpope/vim-commentary

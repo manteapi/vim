@@ -10,3 +10,6 @@
 [submodule ".vim/pack/plugins/start/gutentags"]
 	path = .vim/pack/plugins/start/gutentags
 	url = https://github.com/ludovicchabant/vim-gutentags.git
+[submodule ".vim/pack/plugins/opt/qmlSyntax"]
+	path = .vim/pack/plugins/opt/qmlSyntax
+	url = https://github.com/peterhoeg/vim-qml.git

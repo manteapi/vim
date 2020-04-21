@@ -42,3 +42,6 @@ inoremap <c-d> <esc>ddi
 " Abbreviations handling typos
 iabbrev waht what
 iabbrev tehn then
+
+" Add fzf directory to runtimepath
+set rtp+=~/.fzf

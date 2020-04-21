@@ -22,3 +22,6 @@
 [submodule ".vim/pack/plugins/opt/clangFormat"]
 	path = .vim/pack/plugins/opt/clangFormat
 	url = https://github.com/rhysd/vim-clang-format.git
+[submodule ".vim/pack/plugins/start/fzf"]
+	path = .vim/pack/plugins/start/fzf
+	url = https://github.com/junegunn/fzf.vim.git

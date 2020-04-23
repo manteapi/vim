@@ -15,7 +15,7 @@
 	url = https://github.com/peterhoeg/vim-qml.git
 [submodule ".vim/pack/plugins/start/commentary"]
 	path = .vim/pack/plugins/start/commentary
-	url = https://github.com/tpope/vim-commentary
+    url = https://github.com/tpope/vim-commentary.git
 [submodule ".vim/pack/plugins/opt/cppSyntax"]
 	path = .vim/pack/plugins/opt/cppSyntax
 	url = https://github.com/bfrg/vim-cpp-modern.git

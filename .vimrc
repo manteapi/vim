@@ -23,17 +23,6 @@ set fileignorecase " Ignore case whil searching for a file.
 set incsearch " Show search's result(s) while typing.
 set hlsearch  " Highlight search's result(s).
 
-" Enable status line visibility
-set laststatus=2
-set statusline =\ D:%{getcwd()} " Working directory
-set statusline+=\ F:%f          " Current file
-set statusline+=\ S:%m          " File's modification state
-set statusline+=\ R:%r          " File's permissions
-set statusline+=\ T:%y          " File's language type
-set statusline+=\ L:%l/%L       " Current line vs lines number
-set statusline+=\ C:%v          " Current column
-set statusline+=\ P:%p          " Current percentage
-
 " Insert mode mapping
 
 " Ctrl-d : delete a line in insert mode
@@ -43,5 +32,3 @@ inoremap <c-d> <esc>ddi
 iabbrev waht what
 iabbrev tehn then
 
-" Add fzf directory to runtimepath
-set rtp+=~/.fzf

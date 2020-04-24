@@ -23,6 +23,8 @@ set fileignorecase " Ignore case whil searching for a file.
 set incsearch " Show search's result(s) while typing.
 set hlsearch  " Highlight search's result(s).
 
+set backspace=indent,eol,start "Fix backspace
+
 " Abbreviations handling typos
 iabbrev waht what
 iabbrev tehn then

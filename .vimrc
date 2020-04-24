@@ -29,3 +29,6 @@ set backspace=indent,eol,start "Fix backspace
 iabbrev waht what
 iabbrev tehn then
 
+" Add fzf directory to runtimepath
+set rtp+=~/.fzf
+

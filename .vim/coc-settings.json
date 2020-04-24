@@ -1,22 +1,11 @@
 {
+    "python.jediEnabled": true,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": [
-        "--max-line-length=120"
-    ],
-    "python.linting.mypyEnabled": false,
-    "python.linting.mypyArgs": [
-        "--ignore-missing-imports",
-        "--follow-imports=silent",
-        "--show-column-numbers",
-        "--strict"
-    ],
+    "python.linting.flake8Enabled": false,
+    "python.linting.flake8Args": ["--max-line-length=120"],
     "python.formatting.provider": "black",
-    "python.formatting.blackArgs": [
-        "-l",
-        "120"
-    ],
+    "python.formatting.blackArgs": ["-l","120"],
     "languageserver": {
         "clangd": {
             "command": "clangd",

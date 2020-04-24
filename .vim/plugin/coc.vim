@@ -13,7 +13,7 @@ set cmdheight=2
 set updatetime=300
 
 " Coc extensions
-let g:coc_global_extensions = ['coc-python', 'coc-clangd', 'coc-json']
+let g:coc_global_extensions = ['coc-python', 'coc-clangd', 'coc-json', 'coc-clangd']
 
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.

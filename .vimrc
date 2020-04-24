@@ -23,11 +23,6 @@ set fileignorecase " Ignore case whil searching for a file.
 set incsearch " Show search's result(s) while typing.
 set hlsearch  " Highlight search's result(s).
 
-" Insert mode mapping
-
-" Ctrl-d : delete a line in insert mode
-inoremap <c-d> <esc>ddi 
-
 " Abbreviations handling typos
 iabbrev waht what
 iabbrev tehn then

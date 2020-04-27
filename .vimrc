@@ -1,12 +1,13 @@
-set encoding=utf-8 "Encoding setup
+set encoding=utf-8 " Encoding setup
 
-filetype plugin on "Enable language dependent plugin
-filetype indent on "Enable language dependent indentation
+filetype plugin on " Enable language dependent plugin
+filetype indent on " Enable language dependent indentation
 
-syntax on "Enable syntaxical coloration
+syntax on " Enable syntaxical coloration
 
-set number "Show lines number
-set showmode "Show current mode
+set number relativenumber " Show relative lines number
+
+set showmode " Show current mode
 set wrap "Wrap lines when exceeding window width
 
 set expandtab     " Replace <Tab> by $shiftwidth spaces.

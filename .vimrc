@@ -5,6 +5,8 @@ filetype indent on " Enable language dependent indentation
 
 syntax on " Enable syntaxical coloration
 
+set cursorline " Show a line under the current line
+
 set number relativenumber " Show relative lines number
 
 set showmode " Show current mode

@@ -25,3 +25,6 @@
 [submodule ".vim/pack/plugins/start/fzf"]
 	path = .vim/pack/plugins/start/fzf
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule ".vim/pack/plugins/start/tmuxNavigator"]
+	path = .vim/pack/plugins/start/tmuxNavigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git

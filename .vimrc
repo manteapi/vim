@@ -12,7 +12,10 @@ set foldlevel=0 "All folds are closed
 
 set number relativenumber " Show relative lines number
 
+set showcmd "Display incomplete command in lower right corner of the Vim window
+
 set showmode " Show current mode
+
 set wrap "Wrap lines when exceeding window width
 
 set expandtab     " Replace <Tab> by $shiftwidth spaces.
@@ -24,7 +27,10 @@ set autoindent    " Automatic code file indentation.
 
 set ignorecase     " Ignore case while searching for an expression.
 set smartcase      " Disable 'ignorecase' if a capital letter is typed.
-set fileignorecase " Ignore case whil searching for a file.
+set fileignorecase " Ignore case while searching for a file.
+
+set ttimeout " Enable timeout on escape
+set ttimeoutlen=100 " Set up a 100ms timeout for escape
 
 set incsearch " Show search's result(s) while typing.
 set hlsearch  " Highlight search's result(s).

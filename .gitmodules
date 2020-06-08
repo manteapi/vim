@@ -28,3 +28,6 @@
 [submodule ".vim/pack/plugins/start/tmuxNavigator"]
 	path = .vim/pack/plugins/start/tmuxNavigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule ".vim/pack/plugins/start/fugitive"]
+	path = .vim/pack/plugins/start/fugitive
+	url = https://github.com/tpope/vim-fugitive.git

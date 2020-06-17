@@ -7,9 +7,6 @@ syntax on " Enable syntaxical coloration
 
 set cursorline " Show a line under the current line
 
-set foldmethod=indent "Enable folding
-set foldlevel=0 "All folds are closed
-
 set number relativenumber " Show relative lines number
 
 set showcmd "Display incomplete command in lower right corner of the Vim window

@@ -41,3 +41,5 @@ iabbrev tehn then
 " Add fzf directory to runtimepath
 set rtp+=~/.fzf
 
+" Reads commands from a vimrc file in the current directory,
+set secure exrc
